@@ -1,0 +1,13 @@
+
+‚
+java:S1319"gThe type of "balanceMap" should be an interface such as "Map" rather than the implementation "HashMap".(´ë×±üÿÿÿÿ
+Œ
+java:S4165 "jRemove this useless assignment; "totalExpense" already holds the assigned value along all execution paths.(¡ìŞÃÿÿÿÿÿ8·é€¦1
+Q
+java:S1656 "/Remove or correct this useless self-assignment.(¡ìŞÃÿÿÿÿÿ8ºé€¦1
+F
+java:S1068"+Remove this unused "groupId" private field.(µƒ÷Öúÿÿÿÿ
+C
+java:S1068"(Remove this unused "user" private field.(’Ø¾ıÿÿÿÿ
+C
+java:S1068".Remove this unused "balanceMap" private field.(Ó‹ô

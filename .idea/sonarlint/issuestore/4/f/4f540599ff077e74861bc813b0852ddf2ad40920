@@ -1,0 +1,7 @@
+
+}
+java:S1319""bThe type of "share" should be an interface such as "Map" rather than the implementation "HashMap".(„ύΐούÿÿÿÿ
+
+java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(„ύΐούÿÿÿÿ
+[
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ΕΌώ8€ϋ1

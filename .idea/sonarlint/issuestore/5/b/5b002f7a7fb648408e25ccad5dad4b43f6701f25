@@ -1,0 +1,9 @@
+
+c
+java:S1192"HDefine a constant instead of duplicating this literal "Player " 4 times.(¢Òú¾şÿÿÿÿ
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(”Ú·çøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢Òú¾şÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(è¿éùÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(½Ä‚ıÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(œ‚Ÿûÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(î¿ëÕşÿÿÿÿ
