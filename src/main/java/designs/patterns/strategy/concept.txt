@@ -1,0 +1,95 @@
+Strategy Design Pattern is used when their is a Parent Class and there are multiple child class extending from it and the child class override some functionality
+and say two or more class override a particular method in same way then there is code duplicacy and thus not extensible.
+
+
+Lets Say there is a Vehicle Class having method say drive
+
+Vehicle {
+     drive ();
+}
+
+
+Lets say there are subclasses extending the main class
+RoadVehicle
+OffRoadVehicle
+SimpleVehicle
+FlyingVehicle
+
+
+RoadVehicle extends Vehicle {
+        drive () {
+               print("Normal Driving Needed");
+        }
+}
+
+OffRoadVehicle extends Vehicle {
+        drive () {
+               print("Special Drive Needed");
+        }
+}
+
+Simple extends Vehicle {
+        drive () {
+              print("Normal Driving Needed");
+        }
+}
+
+FlyingVehicle extends Vehicle {
+        drive () {
+               print("Special Drive Needed");
+        }
+}
+
+
+In the above if you see there is a clear duplicacy where different subclasses have implemented the parent class method in similar way.
+This is the point where we extract out a strategy for that method. Here we would do that for Drive and Create a Drive Strategy(An Interface)
+And there would be multiple implementation of that Strategy and we can say like two strategies ..NormalDriveStrategy and SpecialDriveStrategy.
+
+The Vehicle Class can just hold that strategy ..and the child classes extending vehicle would define their particular strategy whenever they are initialised.
+
+So the Vehicle class would look something like :
+
+
+Vehicle {
+private DriveStrategy drivestrat;
+
+    Vehicle (DriveStrategy drivestrat){
+    this.drivestrat = drivestrat;
+    }
+}
+
+// This is an interface
+DriveStrategy {
+      drive();
+}
+
+
+We can have two classes implementing this interface
+
+
+NormalDriveStrategy implements DriveStrategy {
+        drive () {
+            print("Normal Driving Needed");
+        }
+}
+
+
+SpecialDriveStrategy implements DriveStrategy {
+        drive () {
+            print("Special Drive Needed");
+        }
+}
+
+
+Now When We declare the childClasses for Vehicle
+
+RoadVehicle extends Vehicle {
+      RoadVehicle () {
+           super ( new NormalDriveStrategy()) // At this point the particular DriveStrategy would get decided so we have given the responsiblity to the child class to decide its strategy
+      }
+}
+
+
+
+
+

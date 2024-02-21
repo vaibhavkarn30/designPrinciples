@@ -17,7 +17,7 @@ public class FloorService {
             slotAvailabilityInfo[i] = true;
         }
 
-        floor.setSlotAvailabilityInfo(slotAvailabilityInfo);
+        //floor.setSlotAvailabilityInfo(slotAvailabilityInfo);
     }
 
 }

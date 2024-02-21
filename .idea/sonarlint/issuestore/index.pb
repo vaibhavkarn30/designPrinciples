@@ -1,6 +1,4 @@
 
-c
-3src/main/java/designs/snakeladder/model/Player.java,2/5/2524f934f17399472b89e1933ed69e0a612610e0
 [
 +src/main/java/designs/snakeladder/Dice.java,2/8/2800b8caa0213721ce5f836eddf077b7e2f196f9
 b
@@ -13,13 +11,29 @@ m
 =src/main/java/designs/splitwise/service/SplitwiseService.java,9/7/97512629a7cf57d5827df111f461e521667a2108
 p
 @src/main/java/designs/splitwise/service/ExpenseGroupService.java,4/f/4f540599ff077e74861bc813b0852ddf2ad40920
-h
-8src/main/java/designs/splitwise/models/ExpenseGroup.java,5/6/56840e16426a9802a29c7919b141f673f92e7111
 l
 <src/main/java/designs/splitwise/models/GroupParticipant.java,c/2/c2da93eb2d589b31ad2aa58fdd549ee97bb765c1
 d
 4src/main/java/designs/snakeladder/util/GameUtil.java,3/4/34fa8f17ca1b05c3ab283c1c26b74c3d6eb53ee3
-O
-src/main/java/designs/Main.java,f/2/f280d63a9bfaa8db15f8f684369207450d36236d
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+]
+-src/main/java/designs/parkingLot/Vehicle.java,9/4/9437343364f4a1651d5a787033101fc1344efb5c
+[
++src/main/java/designs/parkingLot/Floor.java,0/4/04ae3492d368b3a26219f46a9a0b1ee2ecaa799a
+e
+5src/main/java/designs/parkingLot/ParkingBuilding.java,3/e/3e194ded8850f800afa492c5df07cf98bbb0f0fa
+c
+3src/main/java/designs/parkingLot/OccupancyInfo.java,e/9/e97a4e6804b46a7967d2eb1131515b93d905fae9
+a
+1src/main/java/designs/parkingLot/SlotDetails.java,b/c/bc403c1ffb7f479359083c5392a356633cbb03df
+^
+.src/main/java/designs/parkingLot/SlotType.java,f/5/f5c6843a9283a0781e631e8af8ba808b59fe04bd
+a
+1src/main/java/designs/parkingLot/VehicleType.java,3/1/312b6a4579be634480b97aab33f8320e5a6f5162
+c
+3src/main/java/designs/parkingLot/DriverDetails.java,6/2/62f2c6ab4157138b3683c14144113cc1263f4195
+g
+7src/main/java/designs/parkingLot/ParkingLotService.java,a/0/a02cade04d14ade0072b1c5b50dba7eab6346f02
+h
+8src/main/java/designs/splitwise/models/ExpenseGroup.java,5/6/56840e16426a9802a29c7919b141f673f92e7111
