@@ -1,0 +1,5 @@
+
+# To Find Duplicate Number in array in constant time
+
+1) We consider the array as rather a linked list with each number specifying actually the next number it points to.
+2) If any time there is a cycle in a list then slow and fast will point to the same node and the cycle would be detected and that means tht the arry contains a duplicte

@@ -1,0 +1,14 @@
+1) Used Where we need only one Instance of the object in our whole application, example being
+Say JDBC connection object that our application might use to connect to the database
+2) Constructor Should be Private so that no other class can call it and create its object
+3) Object Create With The Help of Method
+4) Object Field Would be static
+5) To Make it ThreadSafe -> we can sort of add a synchronized block over the place where we are making or initialising the object
+
+
+Ways to Break The SingleTon Design Pattern
+1) Reflection API can be used to break the singleton pattern by getting the constructor of the given class and changing its accesiblity to true
+this we can escape by throwing a RunTime Exception from the contructor if someone is trying to break the singleton pattern by changing the accesiblity
+2) By geeting the object and then serialising it and then deserialising it again we get a new instance of the object
+this we can escape by impelementing the readResolve Method in our class so that everytime same object is being returned upon deserialisation as well
+3) This can also be breaken by using the clone method like when the singleton class implements clonable

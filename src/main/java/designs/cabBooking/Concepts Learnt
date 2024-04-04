@@ -1,0 +1,4 @@
+
+1) We Should try and make sure whatever objects are immutable, we should enforce immutability. Like only using getters and not setters if not required
+2) We should try and use strategy pattern or like strategies if in future we are unsure that the way we might change our algorithm to find out something might change
+like here we have made use of the cabMatching Strategy and priceMatchingStrategy.Our code should always follow SOLID Principles.

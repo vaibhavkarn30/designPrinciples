@@ -1,0 +1,5 @@
+
+
+To Allow Working of 2 incompatible interfaces we introduce an adapter in b/w
+
+https://medium.com/@thecodebean/adapter-design-pattern-implementation-in-java-72f4a19af3c1

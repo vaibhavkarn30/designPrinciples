@@ -1,0 +1,5 @@
+# To Calculate the Diameter of a binary Tree
+
+The way is for every node we calculater the left dia , right dia and the one that goes through the root which is left height Plus right height
+
+WE can calculate height recursively and waht we can do is sort of pass the dia object there itself and as we know at every node we have left height and right height available with us so we can update the diameter object there itself.

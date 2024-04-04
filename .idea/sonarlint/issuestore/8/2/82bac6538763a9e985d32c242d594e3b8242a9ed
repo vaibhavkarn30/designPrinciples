@@ -1,0 +1,6 @@
+
+.
+java:S1700	"Rename field "addresses"(¯Ú¤‹
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“üÌ 
+C
+java:S1068	"-Remove this unused "addresses" private field.(¯Ú¤‹

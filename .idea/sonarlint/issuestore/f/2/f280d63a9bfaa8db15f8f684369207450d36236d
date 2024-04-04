@@ -1,0 +1,11 @@
+
+ñ
+java:S1186)"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(≥ı’+
+Q	java:S125"<This block of commented-out lines of code should be removed.(öÀÎé
+P	java:S125"<This block of commented-out lines of code should be removed.(˙’ç*
+Q	java:S125"<This block of commented-out lines of code should be removed.(öÀÎé
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(€¢±ô
+M
+java:S1144"7Remove this unused private "playSnakeAndLadder" method.(®úâÙ
+F
+java:S1144)"1Remove this unused private "useSplitWise" method.(≥ı’+

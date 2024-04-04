@@ -1,0 +1,6 @@
+
+Approach
+
+1) We want to find an element which is less than its previous element that would be the pivot point basically
+2) We do binary search -> we find middle element is middlelement is less than previous element we know this is the smallest element
+3) else we check 2 parts of the array based on if its sorted or no whichever part is unsorted we try and move to that part basically

@@ -1,0 +1,14 @@
+
+// NeetCode-150 Sheet
+
+https://leetcode.com/problems/daily-temperatures/
+
+Concept Learnt
+1) We needed to use stack to like for every element find the next largest element to its right and store the diff
+
+Approach
+1) maintained a stack of nextgreaterelement
+2) if while inserting current element the stacks top most element is greater then current we just push the current element as we are happy that
+the next greatest element we already found at top
+3) else we keep popping all the elements less then current element as we are sure they are of no use as they are smaller then curr element also
+so anyhow elements to the left of curr element will find this of no use.

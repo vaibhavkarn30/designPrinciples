@@ -1,0 +1,9 @@
+
+# To Find the LCA of BST
+
+1) we can see if the both nodes are less then current node then LCA lies on left side
+2) we can see if both nodes are greater then current node then LCA lies on the right side
+3) else the current node is the root node
+
+
+This Solution does have an assumption that both nodes are present in the tree

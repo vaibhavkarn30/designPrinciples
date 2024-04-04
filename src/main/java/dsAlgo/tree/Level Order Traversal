@@ -1,0 +1,11 @@
+
+# Get level order Traversal of a Tree from left to right
+
+
+1) We can simply use queue and psuh left and right elements and get each individual level
+
+
+The other one more approach is like we get the height of the tree first and then at every h we check if current node level is of h if yes we print it else we don't
+
+Reference -> https://www.geeksforgeeks.org/level-order-tree-traversal/
+

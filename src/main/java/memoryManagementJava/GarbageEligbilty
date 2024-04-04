@@ -1,0 +1,11 @@
+
+#In other languages we have to manually free the memory
+
+
+1) Obects that are not freed continue to keep on consuming memory and this is sort of memory leak
+2) Java avoids the memory leaks by the method of Garbage Collection
+3) any object that cannot be reached from a refernce from a stack is eligible for garbage collection. Its is incorrect to say unreferneced object because there can
+be say a list in heap referncing two objectst that is stored in the list. But as this list in not refernced these objects will also be cleaned away
+4) System.gc() does not provide gurantee that garbage collection would run
+5) Even while grabage collecting , it is possible that grabage collectio ran but it still did not garbage collected all objects as its only intention is to keep the heap neat and tidy
+6) -Xmx10m -> to run with a lower heap size

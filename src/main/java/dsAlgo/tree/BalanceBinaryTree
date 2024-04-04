@@ -1,0 +1,6 @@
+
+# We need to calculate if a given Binary Tree is Balanced
+
+1) We can maintaina balnced Node which has a boolean value static the balance of the tree
+2) we recursively calculate the height of the tree. If any point we see a disbalnce in height we update this variable.
+3) And before invoking any other further call to the right side of the tree, we check for this value and cut any further recursive calls

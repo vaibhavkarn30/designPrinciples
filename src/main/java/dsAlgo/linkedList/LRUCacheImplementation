@@ -1,0 +1,7 @@
+# Design a DataStructure to Implement LRU Cache
+
+1) Can be done with a combination of DoublyLinkedList and HashMpa
+2) We insert only if capacity is not reached
+3) In hashmap the most recently used element has to be near to the head and the least recently used towards the tail
+4) Whenever we do a get Operation on any node we make sure tht node is deleted from dLL from wherever it is and moved towards the head
+reference -> https://www.youtube.com/watch?v=xDEuM5qa0zg

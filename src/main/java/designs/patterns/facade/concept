@@ -1,0 +1,8 @@
+Facade defines a higher-level interface that makes the subsystem easier to use by wrapping a complicated subsystem.
+This reduces the learning curve necessary to successfully leverage the subsystem.
+It also promotes decoupling the subsystem from its potentially many clients.
+On the other hand, if the Facade is the only access point for the subsystem, it will limit the features and flexibility that “power users” may need.
+
+So for client it only talks to one class and that one class basically talks to other subsytems.
+
+A classical example of a facade is a restaurant where customer just sees a menu to order and does not look like inner systems that are ther like chefs wait queue e.t.c so this menu basically acts as a facade here
