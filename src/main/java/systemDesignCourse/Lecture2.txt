@@ -30,3 +30,14 @@ Delegation
     b) long polling : server responds to whenever the data is there, so client hits once and waits till timeout and the data is recieved only when the server has it, If timeout happens client again tries
     c) Websockets : Server can proactively send data to clients :
         aa) can be used in realtime communincations like clap updates on medium
+
+
+Materialised view
+1) If a query takes time -> we can actually precompute and keep that ready in a materialised view.
+2) The MV would store both the query and the data associated with it.
+3) The MV data becomes staled manually needs to be refreshed by using commands like refresh materialised view
+
+
+So there is a normal view as well but in materialised view we store the associate query and the data
+But in view we only store the associated query that was used to create the view and not the data
+Thus every time you execute the view the query would get executed again and again.
