@@ -1,0 +1,32 @@
+Caching does not always mean saving in RAM:
+
+It is anywhere we can precompute and save heavy computation.
+
+There are multiple places we can cache a data :
+1) In Browser -> It is the nearest cache to a client
+2) Centrailised/Remote Cache
+3) DB as a cache -> we can denoramlise the data and store so that we avoid huge runtime queries.
+4) Pre compute and store on s3 -> This can also save us from huge queries on database.
+5) Load Balancer as a cache
+6) Materialised Views (Read More on this)
+7) Disk of API Server
+
+
+Scaling
+Whenver we scale we should always scale bottom up. That is first we scale the core component
+In most of the cases it is database and then we actually scale API server.
+
+
+Delegation
+1) What should not be done in realtime must not be done in real time
+2) There are multiple things that we can delegate
+    a) Long Running Tasks
+    b) Heavy Computation Query
+    c) Batch and Write
+    d) Anything that could be eventual
+
+3) There are different ways of communication between a client and server, few of them are :
+    a) Short Polling : Client polls to server at every few seconds ( example live cricket score) (there is http overhead as every time http connection is established)
+    b) long polling : server responds to whenever the data is there, so client hits once and waits till timeout and the data is recieved only when the server has it, If timeout happens client again tries
+    c) Websockets : Server can proactively send data to clients :
+        aa) can be used in realtime communincations like clap updates on medium
