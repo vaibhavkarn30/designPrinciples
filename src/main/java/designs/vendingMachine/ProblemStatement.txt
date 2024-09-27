@@ -1,0 +1,6 @@
+The vending machine has to maintain inventory records.
+The machine should allow a user to select an item and insert cash.
+When cash is inserted, the machine should verify that it matches the amount of the chosen item.
+When an item is unavailable or there is insufficient cash, the machine must display an error.
+Upon successful verification and transaction, the vending machine shall dispense the chosen item to the user.
+Ultimately, the user receives the chosen item if all of the previously mentioned stages are successful.
